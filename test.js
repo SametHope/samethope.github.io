@@ -1,3 +1,3 @@
 function sa(){
-    alert("sa");
+    alert("AS KRDŞM");
 }
