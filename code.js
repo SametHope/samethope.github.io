@@ -1,3 +1,4 @@
-function sa(){
-    alert("AS KRDŞM");
+function someButton(){
+    var str = document.getElementById("textArea");
+    alert(str);
 }
