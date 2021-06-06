@@ -1,6 +1,10 @@
 .msg{
-    background-color: crimson;
-
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color:floralwhite;
+    position: relative;
+    margin: auto;
 }
 
 .btn{
