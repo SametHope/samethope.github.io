@@ -1,13 +1,126 @@
-<html>
-    <header>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </header>
-    <div class="msg">
-        <h3>Some text.</h3>
-        <textarea id="textArea"></textarea>
-        <button class="btn" onclick="someButton()">
-            <strong>Some Button</strong></button>
-    </div>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Boostrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!--Fonts Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <title>İletişim Bölümü</title>
+</head>
+<body>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md left">
+                    <section class="widget-text">
+                        <h2 class="widget-title">İletişim Bilgileri</h2>
+                        <div class="textwidget">
+                            <p>
+                                <span class="_2iem">İstanbul Mahallesi 129 Cadde <br> No.15 Isparta </span>
+                            </p>
+                            <p>
+                                <a class="medya"></a>
+                                0246 722 28 39
+                            </p>
+                            <p>Atasanoptik@hotmail.com</p>
+                        </div>
+                    </section>
+                    <section class="widget-social-media">
+                        <h2 class="widget-title">Sosyal Medya</h2>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#" title="youtube"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="instagram"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="twitter"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-md center">
+                    <section class="widget-contact-form">
+                        <div class="form-holder">
+                            <section class="widget-text">
+                                <h2 class="widget-title">Bizimle İletişime Geçin</h2>
+                                <div class="textwidget">
+                                    <div role="form" class="form" lang="tr-TR" dir="ltr">
+                                        <div class="screen-reader-response" role="alert" aria-live="polite"></div>
+                                        <form action="#" method="POST" class="form-init" novalidate="novalidate">
+                                            <p>
+                                                <span class="form-control-wrap your-name">
+                                                    <input type="text" name="your-name" value size="40"
+                                                        class="form-text" aria-required="true" aria-invalid="false"
+                                                        placeholder="İsim">
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <span class="form-control-wrap your-email">
+                                                    <input type="text" name="your-email" value size="40"
+                                                        class="form-text" aria-required="true" aria-invalid="false"
+                                                        placeholder="Email">
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <span class="form-control-wrap your-subject">
+                                                    <input type="text" name="your-subject" value size="40"
+                                                        class="form-text" aria-required="true" aria-invalid="false"
+                                                        placeholder="Konu">
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <span class="form-control-wrap your-message">
+                                                    <textarea name="your-message" cols="40" rows="5"
+                                                        class="form-textarea" aria-invalid="false"
+                                                        placeholder="Message"></textarea>
+                                                </span>
+                                            </p>
+                                            <p>
+                                                <input type="submit" value="Gönder" class="form-submit">
+                                                <span class="ajax-loader"></span>
+                                            </p>
+                                            <div class="response-output" role="alert" arial-hidden="true"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md right">
+                    <section class="widget-text">
+                        <h2 class="widget-title">Açılıs Saatler</h2>
+                        <div class="textwidget">
+                            <p>Pazartesi&emsp;&nbsp;&nbsp;&nbsp;08:30-20:30</p>
+                            <p>Salı&emsp;&emsp;&emsp;&emsp;&nbsp;08:30-20:30</p>
+                            <p>Çarşamba&emsp;&nbsp;&nbsp;08:30-20:30</p>
+                            <p>Perşembe&emsp;&nbsp;&nbsp;08:30-20:30</p>
+                            <p>Cuma&emsp;&emsp;&emsp;&nbsp;08:30-20:30</p>
+                            <p>Cumartesi&emsp;&nbsp;&nbsp;08:30-20:30</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
